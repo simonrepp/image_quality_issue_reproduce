@@ -14,4 +14,12 @@ is indeed performing a re-encode (and not simply saving a verbatim copy).
 
 See `src/main.rs` for the minimal source code used to generate the images. 
 
+## Results
 
+Focusing on areas with similar colors, like skies:
+
+- With quality at 100%, the "image" encoder introduces bending and a green tint, compared to no bending and not tint in Gimp with similar settings.
+- With quality at 90%, the "image" encoder produced an expected filesize while quality is significantly worse than the Gimp version, which is still nearly visually lossless
+- With quality at 70%, quality starts to become compareable to the gimp version, while a slightly greenish tint remains.
+
+![chart comparison](results.jpg)
