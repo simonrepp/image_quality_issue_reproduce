@@ -22,4 +22,8 @@ Focusing on areas with similar colors, like skies:
 - With quality at 90%, the "image" encoder produced an expected filesize while quality is significantly worse than the Gimp version, which is still nearly visually lossless
 - With quality at 70%, quality starts to become compareable to the gimp version, while a slightly greenish tint remains.
 
-![chart comparison](results.jpg)
+There was no difference in quality whether the resize function was used or not.
+There was no visible difference in quality in more complex high-frequency parts of the image.
+
+![chart comparison](comparison_chart.jpg)
+![comparison side by side](comparison_90percent_sidebyside.jpg)
